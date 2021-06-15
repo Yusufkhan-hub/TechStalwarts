@@ -1,0 +1,266 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div>
+    <div>
+      <aside class="main-sidebar sidebar-light-primary elevation-4" style="margin-top: 15mm;">
+        <div class="sidebar">
+          <nav><br>
+            <div class="nav nav-sidebar m-2">
+                <p>Compenent</p>
+            </div>            
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="nav-icon fas  fa-laptop"></i>
+                      Base UI
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" id="f" role="button" aria-expanded="false">
+                        <i class="nav-icon fas  fa-database"></i>
+                        Extended UI
+                        <span class="right badge badge-primary">Hot</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="f">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="f" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="nav-icon fas  fa-server"></i>
+                        Widgets
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="f">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="h" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="nav-icon fas  fa-compass"></i>
+                      Icons
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="h">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="j" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="nav-icon fas  fa-eraser"></i>
+                      Forms
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="j">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="j" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="nav-icon fas  fa-table"></i>
+                      Tables
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="j">
+                      <li><a class="dropdown-item" href="#">Basic Table</a></li>
+                      <li><a class="dropdown-item" href="#">Advance Table</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="j" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="nav-icon fas fa-barcode"></i>
+                      CHarts
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="j">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="j" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="nav-icon fas  fa-map-marker"></i>
+                      Maps
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="j">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="j" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="nav-icon fas  fa-share-alt"></i>
+                      Multi Level
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="j">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>              
+            </ul>
+          </nav>
+        </div>
+      </aside>
+    </div>
+    <div class="content-wrapper">
+        <div class="content-body">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Basic Table</a>                  
+                  <div class="navbar me-0" id="">
+                        <ul class="navbar-nav">
+                            <li class="dropright">
+                                <a class="nav-link dropdown-toggle" href="#" id="" role="button" data-bs-toggle="dropright" aria-expanded="false">
+                                Minton
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropright">
+                                <a class="nav-link dropdown-toggle" href="#" id="" role="button" data-bs-toggle="dropright" aria-expanded="false">
+                                Tables
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropright">
+                                <a class="nav-link dropdown-toggle" href="#" id="" role="button" data-bs-toggle="dropright" aria-expanded="false">
+                                Basic Tables
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <div class="card mt-0">
+            <div class="row m-4">
+                <div class="col-sm-5 mx-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Basoc examples</h5>
+                            <p>This is basic table basic styling-- light padding and only horizontal dividers</p>
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">S. No</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                {% for item in obj %}                                
+                                  <tr>
+                                    <th scope="row">{{forloop.counter}}</th>
+                                    <td>{{item.first_name}}</td>
+                                    <td>{{item.last_name}}</td>
+                                    <td>{{item.username}}</td>
+                                  </tr>
+                                  {% endfor %}
+                                  
+                                </tbody>
+                              </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5 me-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Basoc examples</h5>
+                            <p>This is basic table basic styling-- light text and dark table</p>
+                            <table class="table table-dark">
+                                <thead>
+                                    <tr>
+                                      <th scope="col">S. No</th>
+                                      <th scope="col">First</th>
+                                      <th scope="col">Last</th>
+                                      <th scope="col">Handle</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                  {% for item in obj %}                                
+                                    <tr>
+                                      <th scope="row">{{forloop.counter}}</th>
+                                      <td>{{item.first_name}}</td>
+                                      <td>{{item.last_name}}</td>
+                                      <td>{{item.username}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                    
+                                </tbody>
+                              </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-4">
+                <div class="col-sm-5 mx-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Basic examples</h5>
+                            <p>This is basic table basic styling-- light table head and plain table</table></p>
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                      <th scope="col">S. No</th>
+                                      <th scope="col">First</th>
+                                      <th scope="col">Last</th>
+                                      <th scope="col">Handle</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                  {% for item in obj %}                                
+                                    <tr>
+                                      <th scope="row">{{forloop.counter}}</th>
+                                      <td>{{item.first_name}}</td>
+                                      <td>{{item.last_name}}</td>
+                                      <td>{{item.username}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                    
+                              </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5 me-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Basic examples</h5>
+                            <p>This is basic table basic styling-- light padding and stripped table</p>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                      <th scope="col">S. No</th>
+                                      <th scope="col">First</th>
+                                      <th scope="col">Last</th>
+                                      <th scope="col">Handle</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                  {% for item in obj %}                                
+                                    <tr>
+                                      <th scope="row">{{forloop.counter}}</th>
+                                      <td>{{item.first_name}}</td>
+                                      <td>{{item.last_name}}</td>
+                                      <td>{{item.username}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                    
+                              </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+</div>
+
+{% endblock content %}
